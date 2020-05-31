@@ -24,5 +24,4 @@ you can copy these files to Xcode :
 
 command example:
 
-> sudo cp -r ./ /Applications/Xcode.app/Contents/Developer/Platforms/
-
+> sudo cp -r ./Platforms/ /Applications/Xcode.app/Contents/Developer/Platforms/
