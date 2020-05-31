@@ -2,16 +2,27 @@
 
 contain files:
 
-- libstdc++6.0.9
+- **libstdc++6.0.9**
 
-- libstdc++6
+- **libstdc++6**
 
-- libstdc++
+- **libstdc++**
 
   
 
-you can copy these fiels to Xcode : 
+you can copy these files to Xcode : 
 
-- iPhoneOS
-- MacOSX
-- iPhoneSimulator
+> Xcode directory:
+>
+> ​	*/Applications/Xcode.app/Contents/Developer/Platforms/*
+
+- **iPhoneOS.platform**
+- **MacOSX.platform**
+- **iPhoneSimulator.platform**
+
+
+
+command example:
+
+> sudo cp -r ./ /Applications/Xcode.app/Contents/Developer/Platforms/
+
